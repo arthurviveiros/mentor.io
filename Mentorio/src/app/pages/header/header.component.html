@@ -1,0 +1,21 @@
+<div id="ment-header">
+    <h6 class="ment-high-emphasis">16:40</h6>
+</div>
+
+<div *ngIf="isHome(); then thenBlock else elseBlock"></div>
+
+<ng-template #thenBlock>
+    <div class="ment-header-logo-home">
+        <img id="ment-logo-home" routerLink="" src="assets/img/Mentorio.png" alt="">
+        <img id="ment-hamburguer" src="assets/img/hamburger.png" alt="">
+    </div>
+</ng-template>
+
+<ng-template #elseBlock>
+    <div class="ment-header-logo">
+        <div id="ment-search">
+            <img id="ment-logo" routerLink="" src="assets/img/footer/Discovery.svg" alt="">
+            <input id="ment-search" placeholder="Pesquisar" type="text">
+        </div>
+    </div>
+</ng-template>

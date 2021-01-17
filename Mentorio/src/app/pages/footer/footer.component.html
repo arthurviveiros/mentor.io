@@ -1,0 +1,23 @@
+<div id="ment-footer">
+
+    <ul [ngClass]="{ active: isCurrentRoute('home') }">
+        <img routerLink="home" src="assets/img/footer/Home.svg" alt="">
+    </ul>
+
+    <ul [ngClass]="{ active: isCurrentRoute('discovery') }">
+        <img routerLink="discovery" src="assets/img/footer/Discovery.svg" alt="">
+    </ul>
+
+    <ul [ngClass]="{ active: isCurrentRoute('add') }">
+        <img routerLink="add" src="assets/img/footer/Add.svg" alt="">
+    </ul>
+
+    <ul [ngClass]="{ active: isCurrentRoute('chat') }">
+        <img routerLink="chat" src="assets/img/footer/Chat.svg" alt="">
+    </ul>
+
+    <ul [ngClass]="{ active: isCurrentRoute('profile') }">
+        <img routerLink="profile" src="assets/img/footer/Profile.svg" alt="">
+    </ul>
+
+</div>

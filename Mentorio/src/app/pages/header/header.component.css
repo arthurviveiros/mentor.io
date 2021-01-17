@@ -1,0 +1,62 @@
+#ment-header {
+    width: 414px;
+    height: 25px;
+    background-color: #9175E8;
+}
+
+.ment-high-emphasis {
+    margin-bottom: 0;
+    color: white;
+    margin-left: 10px;
+    align-self: center;
+}
+
+.ment-header-logo-home {
+    display: flex;
+    padding: 20px;
+    background-color: #1A1B20;
+    justify-content: space-between;
+}
+
+.ment-header-logo {
+    display: flex;
+    background: #282A32;
+    justify-content: space-between;
+}
+
+#ment-logo-home {
+    height: 17px;
+    cursor: pointer;
+}
+
+#ment-logo {
+    height: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#ment-hamburguer {
+    cursor: pointer;
+    height: 10px;
+}
+
+input,
+select,
+textarea {
+    outline: none;
+    border: none;
+    background: #26272E;
+}
+
+#ment-search {
+    display: flex;
+    background: #26272E;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+    align-items: center;
+}
+
+#ment-search-bar {
+    align-self: center;
+}

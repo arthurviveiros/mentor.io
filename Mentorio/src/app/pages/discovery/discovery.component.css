@@ -1,0 +1,17 @@
+#ment-disc-trending {
+    display: flex;
+    justify-content: center;
+}
+
+.ment-high-emphasis {
+    margin-bottom: 0;
+    color: white;
+    margin-left: 30px;
+    align-self: center;
+}
+
+.ment-medium-emphasis {
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 30px;
+}
