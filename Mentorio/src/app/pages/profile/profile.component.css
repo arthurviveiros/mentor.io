@@ -1,0 +1,115 @@
+#ment-bg {
+    width: 104%;
+}
+
+#ment-header {
+    width: 414px;
+    height: 25px;
+    background-color: #9175E8;
+}
+
+.ment-high-emphasis {
+    margin-bottom: 0;
+    color: white;
+    margin-left: 10px;
+    align-self: center;
+}
+
+.ment-icon {
+    cursor: pointer;
+    width: 90px;
+    height: 90px;
+    background-color: #9175E8;
+    border-radius: 50%;
+    position: absolute;
+    top: 23.5vh;
+    left: 40vw;
+}
+
+.ment-icon-text {
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.ment-medium-emphasis {
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.6);
+    padding-right: 15px;
+    margin-left: 10px;
+}
+
+.ment-spacer {
+    margin-top: 50px;
+}
+
+.ment-content-spacer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 70px;
+    width: 104%;
+    background-color: #1A1B20;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.ment-profile {
+    overflow: scroll;
+    height: 100%;
+    width: 100%;
+    padding-right: 2000px;
+    box-sizing: content-box;
+    overflow-x: hidden;
+}
+
+#ment-disc-trending {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+.ment-center {
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.ment-disc-comu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ment-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.ment-comu-img {
+    margin-left: 10px;
+    border: 3px solid #9175E8;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.ment-end {
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.ment-content-Sspacer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+    width: 104%;
+    background-color: #1A1B20;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.ment-s-spacer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

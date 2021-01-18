@@ -6,6 +6,11 @@
     border-radius: 50%;
 }
 
+.ment-icon-text {
+    flex-direction: column;
+    padding-left: 15px;
+}
+
 .ment-small-icon {
     cursor: pointer;
     width: 15px;
@@ -34,11 +39,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.ment-icon-text {
-    flex-direction: column;
-    padding-left: 15px;
 }
 
 .ment-high-emphasis {

@@ -15,3 +15,74 @@
     color: rgba(255, 255, 255, 0.6);
     padding-left: 30px;
 }
+
+.ment-disc-cards {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.ment-disc-card {
+    padding-left: 5px;
+    padding-top: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.ment-disc {
+    background-color: #1A1B20;
+}
+
+.ment-disc-comu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ment-purple-emphasis {
+    color: #9175E8;
+}
+
+.ment-spacer {
+    margin-top: 10px;
+}
+
+.ment-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.ment-comu-img {
+    margin-left: 10px;
+    border: 3px solid #9175E8;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.ment-end {
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.ment-content-spacer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 100%;
+    background-color: #1A1B20;
+}
+
+.ment-disc-base {
+    overflow: scroll;
+    height: 100%;
+    width: 103.5%;
+    padding-right: 2000px;
+    box-sizing: content-box;
+    overflow-x: hidden;
+}
+
+.ment-like {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    padding-left: 50px;
+}
